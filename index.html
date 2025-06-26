@@ -21,6 +21,17 @@
     <footer>
         <p>Uma página desenvolvida por Alura Start</p>
     </footer>
-    function inserirNome();
+    <script>
+        function inserirNome() {
+            const nome = prompt("Qual é o seu nome?");
+            const spanUsuario = document.getElementById("nome-usuario");
+            if (nome) {
+                spanUsuario.textContent = nome;
+            }
+        }
+
+        // Chamada da função
+        inserirNome();
+    </script>
 </body>
 </html>
