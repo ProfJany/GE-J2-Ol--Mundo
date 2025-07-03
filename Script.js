@@ -14,6 +14,4 @@ const linguagens = ["JavaScript","Python","C"];​
 linguagens[2] = "HTML"; //ERRO
 let linguagens = ["JavaScript","Python","C"];​
 linguagens[2] = "HTML"; // ["JavaScript","Python","HTML"]
-
-
 }
